@@ -4,7 +4,7 @@ from skimage.transform import rotate
 import numpy as np
 import torch
 from tqdm import tqdm
-import gdal
+from osgeo import gdal
 import os
 import glob
 from skimage.segmentation import mark_boundaries
